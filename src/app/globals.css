@@ -1,34 +1,74 @@
 @import "tailwindcss";
 @import "@heroui/styles";
+
 @plugin "daisyui";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+
+  --card: #ffffff;
+  --border: #e2e8f0;
+
+  --primary: #059669;
+  --primary-light: #10b981;
+
+  --muted: #64748b;
+}
+
+/* Dark Theme */
+
+.dark {
   --background: #030712;
-  --foreground: #F9FAFB;
+  --foreground: #f9fafb;
+
+  --card: #111827;
+  --border: #1f2937;
+
+  --primary: #10b981;
+  --primary-light: #34d399;
+
+  --muted: #9ca3af;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-geist-sans), sans-serif;
   overflow-x: hidden;
+
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
 }
 
-/* Custom Scrollbar */
+
+::selection {
+  background: #10b981;
+  color: #030712;
+}
+
+
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #030712;
+  background: var(--background);
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #1F2937;
-  border-radius: 4px;
+  background: var(--border);
+  border-radius: 999px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #10B981;
+  background: var(--primary);
 }

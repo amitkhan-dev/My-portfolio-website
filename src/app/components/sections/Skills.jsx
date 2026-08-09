@@ -4,8 +4,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Terminal, ArrowUpRight } from "lucide-react";
 
-import {
-  skillCategories, skillsData,} from "@/data/skillsData";
+import { skillCategories, skillsData,} from "@/data/skillsData";
 
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -19,8 +18,7 @@ export default function Skills() {
 
   return (
     <section
-      id="skills"
-      className="relative overflow-hidden bg-[#030712] py-24 sm:py-28 lg:py-32"
+      id="skills" className="relative overflow-hidden bg-[#030712] py-24 sm:py-28 lg:py-32"
     >
       {/* Background Glow */}
       <div
