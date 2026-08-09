@@ -48,12 +48,20 @@ export default function Hero() {
             <div className="flex items-center gap-2 mb-6">
               <Terminal size={22} className="text-[#10B981]" />
               <h2 className="text-xl sm:text-2xl font-bold font-mono text-[#9CA3AF]">
-                Full-Stack Web Developer <span className="text-[#10B981]">|</span> MERN DEVELOPER
+                Full-Stack Web Developer 
               </h2>
             </div>
 
             {/*Introduction */}
             <p className="text-base sm:text-lg text-[#9CA3AF] leading-relaxed max-w-2xl mb-8"> I’m a Full-Stack Web Developer who enjoys turning ideas into modern, responsive web applications using React, Next.js, Node.js, and MongoDB. I focus on clean, maintainable code and building experiences that are practical, reliable, and easy to use. </p>
+
+            <div className="flex flex-wrap items-center gap-2.5 mb-8">
+              {["React", "Next.js", "Node.js", "MongoDB"].map((tech) => (
+                <div key={tech} className="group inline-flex items-center justify-center px-4 py-1.5 rounded-xl bg-[#111827]/90 border border-[#10B981]/30 text-[#10B981] font-mono text-xs font-semibold transition-all duration-300 hover:border-[#10B981] hover:bg-[#10B981] hover:text-[#030712] hover:shadow-[0_0_18px_rgba(16,185,129,0.35)]"
+                > {tech}
+                </div>
+              ))}
+            </div>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-5 w-full sm:w-auto mb-10">
               <a 

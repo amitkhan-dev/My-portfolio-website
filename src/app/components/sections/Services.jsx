@@ -3,6 +3,7 @@
 import React from "react";
 import { Code2, Layout, Server, Zap, Terminal } from "lucide-react";
 import { servicesData } from "@/data/servicesData";
+import { motion } from "framer-motion";
 
 
 export default function Services() {
@@ -26,26 +27,30 @@ export default function Services() {
           <div className="mx-auto mt-7 h-1 w-12 rounded-full bg-emerald-500" />
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
-          {servicesData.map((service) => {
+          {servicesData.map((service, index) => {
             const Icon = service.icon;
+            const isEven = index % 2 === 0;
 
             return (
-              <div
+              <motion.div
                 key={service.id}
-                className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-gray-800 bg-gray-900/80 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/40 hover:bg-gray-900 hover:shadow-xl hover:shadow-emerald-950/20">
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-500 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"/>
+                initial={{ opacity: 0, x: isEven ? -60 : 60 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-gray-800 bg-gray-900/80 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/40 hover:bg-gray-900 hover:shadow-xl hover:shadow-emerald-950/20">         
+          
+                <div aria-hidden="true" className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-emerald-500 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"/>
 
                 <div>
-                  {/* Service Icon */}
                   <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl border border-gray-800 bg-gray-950 text-emerald-400 transition-all duration-300 group-hover:border-emerald-500/40 group-hover:shadow-md group-hover:shadow-emerald-500/10"> <Icon size={26} />
                   </div>
 
-                  <h3 className="text-xl font-semibold text-gray-100 transition-colors duration-300 group-hover:text-emerald-400"> {service.title} </h3>
-
+                  <h3 className="text-xl font-semibold text-gray-100 transition-colors duration-300 group-hover:text-emerald-400">
+                    {service.title}</h3>
                   <p className="mt-3 text-sm leading-6 text-gray-400">
                     {service.description} </p>
+
                   <ul className="mt-6 space-y-2 border-t border-gray-800/80 pt-6">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-2 text-xs font-medium text-gray-300">
@@ -55,7 +60,7 @@ export default function Services() {
                     ))}
                   </ul>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>
