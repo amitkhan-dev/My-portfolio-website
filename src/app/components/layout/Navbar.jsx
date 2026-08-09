@@ -10,8 +10,10 @@ import { Menu, X, Download, Code2, Sparkles } from "lucide-react";
 const navLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
+  { name: "Services", href: "#services" },
   { name: "Education", href: "#education" },
   { name: "Projects", href: "#projects" },
+  { name: "Journey", href: "#experience" },
   { name: "Contact", href: "#contact" },
 ];
 

@@ -109,3 +109,7 @@ body {
   opacity: 0.35;
   cursor: not-allowed;
 }
+
+html {
+  scroll-behavior: smooth;
+}

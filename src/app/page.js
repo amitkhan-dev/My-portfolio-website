@@ -7,6 +7,7 @@ import Projects from "./components/sections/Projects";
 import ContactSection from "./components/sections/ContactSection";
 import Footer from "./components/Footer";
 import Services from "./components/sections/Services";
+import Timeline from "./components/sections/Timeline";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Skills/>
       <Services/>
       <Projects/>
+      <Timeline/>
       <ContactSection/>
       <Footer/>
     </main>
