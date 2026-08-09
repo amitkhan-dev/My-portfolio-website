@@ -45,9 +45,9 @@ export const projectsData = [
     description: "Built a consolidated frontend web interface offering utility tools for developers and creators. Focused on modular Tailwind CSS components, custom theme toggles, and responsive pricing layouts.",
 
     images: [
-      "/images/projects/banner-clay-crown.png",// Hero
-      "/images/projects/catelog-clay-crown.png",// Catalog
-      "/images/projects/login-clay-crown.png"// Mobile View
+      "/images/projects/digitools-banner.png",// Hero
+      "/images/projects/digitools-apps.png",// Catalog
+      "/images/projects/digitools-cart.png"// Mobile View
   
     ],
     
@@ -71,39 +71,38 @@ export const projectsData = [
     ]
   },
   {
-    id: "bpl-auction-hub",
-    title: "BPL Auction Hub",
-    slug: "bpl-auction-hub",
-    category: "Frontend App",
-    featured: true,
-    tagline: "Real-time squad builder & auction budget management app.",
-    description: "An interactive cricket team auction simulator built for BPL fan communities to select players, manage team budgets in real-time, and calculate squad constraints.",
-    
-    images: [
-      "/images/projects/banner-clay-crown.png",// Hero
-      "/images/projects/catelog-clay-crown.png",// Catalog
-      "/images/projects/login-clay-crown.png"// Mobile View
+  id: "job-tracker",
+  title: "Job Tracker Application",
+  slug: "job-tracker-application",
+  category: "Frontend",
+  featured: false,
+  tagline: "Browser-based application for tracking job applications.",
+  description: "A responsive web application built to organize and monitor job application progress in real-time. Features interactive UI state management, client-side data persistence with Local Storage, and dynamic filtering.",
   
-    ],
-
-    impact: "Handled dynamic budget updates and duplicate player checks instantaneously using custom React state hooks.",
-    
-    tags: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "State Management"],
-    
-    links: {
-      live: "https://bpl-auction-hub.vercel.app",
-      github: "https://github.com/amithasan/bpl-auction-hub",
-    },
-    
-    metrics: {
-      stars: 18,
-      forks: 6,
-    },
-    
-    challenges: [
-      "Ensuring accurate budget deduction while preventing over-buying in rapid selection loops.",
-      "Handling broken external player image URLs with fallback state wrappers."
-    ]
+  images: [
+    "/images/projects/Job-TackerBanner.png", // Hero
+    "/images/projects/Job-tracker-interview.png", // List View
+    "/images/projects/job-tracker-rejected.png" // Mobile View
+  ],
+  
+  impact: "Utilized client-side LocalStorage persistence and dynamic DOM state management to ensure zero data loss during application tracking.",
+  
+  tags: ["JavaScript (ES6+)", "HTML5", "CSS3", "Local Storage", "DOM Manipulation", "GitHub Pages"],
+  
+  links: {
+    live: "https://amitkhan-dev.github.io/JobTracker-Application-/",
+    github: "https://github.com/amitkhan-dev/JobTracker-Application",
+  },
+  
+  metrics: {
+    stars: 8,
+    forks: 2,
+  },
+  
+  challenges: [
+    "Managing complex UI state updates and DOM manipulation efficiently using plain vanilla JavaScript.",
+    "Handling browser LocalStorage synchronization to prevent data loss or corruption during state modifications."
+  ]
   },
   {
     id: "github-issue-tracker",
@@ -115,9 +114,9 @@ export const projectsData = [
     description: "A developer tool fetching public repository issues via REST APIs, featuring real-time search, tag filtering, and responsive state rendering.",
     
     images: [
-      "/images/projects/banner-clay-crown.png",// Hero
-      "/images/projects/catelog-clay-crown.png",// Catalog
-      "/images/projects/login-clay-crown.png"// Mobile View
+      "/images/projects/github-dashboard.png",// Hero
+      "/images/projects/github-colseIssue.png",// Catalog
+      "/images/projects/github-login.png"// Mobile View
   
     ],
     

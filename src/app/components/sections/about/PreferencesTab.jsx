@@ -19,7 +19,7 @@ export default function PreferencesTab() {
       </div>
 
       <p className="text-[#9CA3AF] leading-relaxed text-base sm:text-lg">
-        I thrive in environments that value clean code, continuous learning, and open communication. Whether working remotely or in a hybrid team setup, I prioritize code readability, maintainability, and user-centric problem-solving. </p>
+        I enjoy working in environments where clean code, continuous learning, and open communication matter. Whether working remotely or as part of a team, I care about writing readable and maintainable code while keeping the user’s needs at the center of every solution. </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
         <div className="p-4 rounded-xl bg-[#030712] border border-[#1F2937] text-center">

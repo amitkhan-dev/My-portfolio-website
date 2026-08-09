@@ -48,14 +48,12 @@ export default function Hero() {
             <div className="flex items-center gap-2 mb-6">
               <Terminal size={22} className="text-[#10B981]" />
               <h2 className="text-xl sm:text-2xl font-bold font-mono text-[#9CA3AF]">
-                Full-Stack Web Developer <span className="text-[#10B981]">|</span> MERN Specialist
+                Full-Stack Web Developer <span className="text-[#10B981]">|</span> MERN DEVELOPER
               </h2>
             </div>
 
             {/*Introduction */}
-            <p className="text-base sm:text-lg text-[#9CA3AF] leading-relaxed max-w-2xl mb-8">
-              I specialize in building scalable, modern web applications with sleek UIs and robust backend architectures. Focused on turning complex ideas into clean, functional code.
-            </p>
+            <p className="text-base sm:text-lg text-[#9CA3AF] leading-relaxed max-w-2xl mb-8"> I’m a Full-Stack Web Developer who enjoys turning ideas into modern, responsive web applications using React, Next.js, Node.js, and MongoDB. I focus on clean, maintainable code and building experiences that are practical, reliable, and easy to use. </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-5 w-full sm:w-auto mb-10">
               <a 

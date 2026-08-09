@@ -19,7 +19,7 @@ export default function JourneyTab() {
       </div>
 
       <p className="text-[#9CA3AF] leading-relaxed text-base sm:text-lg">
-        My passion for software development started with a simple curiosity: understanding how interactive web platforms function behind the scenes. Starting with foundational HTML and CSS, I quickly advanced into JavaScript DOM manipulation, component-driven React application development, and full-stack MERN architectures.
+        My passion for software development started with a simple curiosity: understanding how interactive web platforms work behind the scenes. I started with the fundamentals of HTML and CSS, then explored JavaScript and DOM manipulation before moving into React and full-stack MERN development. Each step helped me understand not just how to build things, but why they work.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
