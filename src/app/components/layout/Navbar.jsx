@@ -64,7 +64,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center gap-4">
             <a 
-              href="/resume/Amit_Hasan_Resume.pdf" 
+              href="/Amit_Hasan_Resume.pdf" 
               download="Amit_Hasan_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"

@@ -59,7 +59,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-5 w-full sm:w-auto mb-10">
               <a 
-                href="/resume/Amit_Hasan_Resume.pdf" 
+                href="/Amit_Hasan_Resume.pdf" 
                 download="Amit_Hasan_Resume.pdf"
                 className="w-full sm:w-auto"
               >
