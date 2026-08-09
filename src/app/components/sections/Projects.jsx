@@ -19,7 +19,7 @@ export default function Projects() {
     : projectsData.filter((p) => p.category === activeCategory);
 
   return (
-    <section id="projects" className="py-24 bg-[#030712] relative">
+    <section id="projects" className="py-10 sm:py-10 lg:py-20 bg-[#030712] relative">
       
       {/* Backgroun Grids */}
       <div className="absolute inset-0 bg-[radial-gradient(#1F2937_1px,transparent_1px)] bg-size:[24px_24px] opacity-20 pointer-events-none" />

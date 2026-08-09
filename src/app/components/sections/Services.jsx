@@ -7,7 +7,7 @@ import { servicesData } from "@/data/servicesData";
 
 export default function Services() {
   return (
-    <section id="services" className="relative overflow-hidden bg-gray-950 py-20 sm:py-24 lg:py-28">
+    <section id="services" className="relative overflow-hidden bg-gray-950 py-10 sm:py-10 lg:py-8">
     
       <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500/5 blur-3xl" />
 

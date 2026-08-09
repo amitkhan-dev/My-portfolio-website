@@ -7,13 +7,13 @@ import { timelineData } from "@/data/timelineData";
 
 const Timeline = ()=> {
   return (
-    <section id="experience" className="relative overflow-hidden bg-gray-950 py-16 sm:py-20">
+    <section id="experience" className="relative overflow-hidden bg-gray-950 py-10 sm:py-12">
       {/* Background */}
       <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500/5 blur-3xl"/>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="mx-auto mb-16 max-w-2xl text-center">
+        <div className="mx-auto mb-1o max-w-2xl text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-gray-900/80 px-3.5 py-1.5 backdrop-blur-sm">
             <Terminal size={14} className="text-emerald-400" />
             <span className="font-mono text-[11px] font-medium uppercase tracking-widest text-gray-400"> Career & Education </span>

@@ -9,7 +9,7 @@ import ContactForm from "./contact/ContactForm";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-20 bg-[#030712] text-[#F9FAFB] relative overflow-hidden">
+    <section id="contact" className="py-13 bg-[#030712] text-[#F9FAFB] relative overflow-hidden">
       {/* Background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#10B981]/5 rounded-full blur-[120px] pointer-events-none" />
 

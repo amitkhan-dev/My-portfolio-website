@@ -125,7 +125,7 @@ export default function Hero() {
                   </div>
                   <div>
                     <p className="text-xs font-mono text-[#9CA3AF]">Clean Code</p>
-                    <p className="text-sm font-bold text-[#F9FAFB]">MERN Architecture</p>
+                    <p className="text-sm font-bold text-[#F9FAFB]">MERN WEB DEVELOPER</p>
                   </div>
                 </div>
               </div>

@@ -20,7 +20,7 @@ export default function About() {
 
   return (
     <section 
-      id="about" className="relative py-24 bg-[#030712] overflow-hidden border-t border-[#1F2937]/50">
+      id="about" className="relative py-10 bg-[#030712] overflow-hidden border-t border-[#1F2937]/50">
 
       {/* Background color*/}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#10B981]/5 rounded-full blur-[140px] pointer-events-none" />

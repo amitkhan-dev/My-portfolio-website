@@ -22,7 +22,7 @@ export default function Skills() {
       : skillsData.filter((skill) => skill.category === activeCategory);
 
   return (
-    <section id="skills" className="relative overflow-hidden bg-gray-950 py-20 sm:py-24 lg:py-28">
+    <section id="skills" className="relative overflow-hidden bg-gray-950 py-6 sm:py-12 lg:py-28">
       <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-emerald-500/5 blur-3xl"/>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
