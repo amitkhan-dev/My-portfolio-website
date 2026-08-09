@@ -85,3 +85,27 @@ body {
 .animate-border-slide {
   animation: borderSlide 3s linear infinite;
 }
+
+/* Swiper Custom Overrides */
+.skills-swiper .swiper-pagination {
+  bottom: 0 !important;
+}
+
+.skills-swiper .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: #374151;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.skills-swiper .swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 999px;
+  background: #10b981;
+}
+
+.skills-swiper .swiper-button-disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
